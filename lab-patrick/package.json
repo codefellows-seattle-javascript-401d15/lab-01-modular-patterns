@@ -1,0 +1,18 @@
+{
+  "name": "lab-patrick",
+  "version": "1.0.0",
+  "description": "Patrick Lab 1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "lab",
+    "1"
+  ],
+  "author": "Patrick Sheridan",
+  "license": "MIT"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "lab-01-modular-patterns",
+  "version": "1.0.0",
+  "description": "![CF](assets/shield-32x32.png) Lab 01: Modular Patterns and Testing ===",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnriqueRico/lab-01-modular-patterns.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnriqueRico/lab-01-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/EnriqueRico/lab-01-modular-patterns#readme"
+}

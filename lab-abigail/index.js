@@ -2,4 +2,4 @@
 
 const greeting = require('./lib/greet.js');
 
-console.log(greeting.greet());
+console.log(greeting.greet(Abigail));

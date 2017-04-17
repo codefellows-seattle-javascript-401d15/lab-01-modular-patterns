@@ -2,6 +2,6 @@
 
 module.exports = exports = {};
 
-exports.greet = function() {
-
+exports.greet = function(name) {
+  return `hello ${name}`;
 };

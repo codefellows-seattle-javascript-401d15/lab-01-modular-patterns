@@ -16,6 +16,19 @@ describe('greetings', function(){
   });
 });
 
+describe('array values or argv', function(){
+  it('index zero should be the path to js file that is executing', function(){
+    expect(process.argv[1]).to.equal(`/home/meklr/education/codefellows/401/1stDayTDD/lab-01-modular-patterns/node_modules/mocha/bin/_mocha`);
+  });
+  it('should add items to the argv array', function(){
+    process.argv = process.argv.concat(['maria', 'scott', 'j.r']);
+    expect(process.argv.length).to.equal(5);
+  });
+  it('should actually be an array', function(){
+    expect(process.argv).to.be.a('array');
+  });
+});
+
 const assert = require('assert');
 
 describe('greet.js', function(){

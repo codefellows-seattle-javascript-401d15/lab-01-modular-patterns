@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/StevenJohnson86/lab-01-modular-patterns#readme",
   "devDependencies": {
+    "argv": "0.0.2",
     "mocha": "^3.2.0"
   }
 }

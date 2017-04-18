@@ -8,5 +8,8 @@ describe('greet.js', function() {
     it('should return, hello Abigail', function() {
       assert.equal(greeting.greet('Abigail'), 'hello Abigail');
     });
+    it('should return a string', function() {
+      assert.equal(typeof greeting.greet('Abigail'), 'string');
+    });
   });
 });

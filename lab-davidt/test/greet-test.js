@@ -14,7 +14,7 @@ describe ('greet.js', function(){
     it('should not be a number', function(){
       assert.notEqual(greet.greet(), NaN);
     });
-    it('should pass in argument', function(){
+    it('should pass in argument ', function(){
       assert.equal(greet.greet(name), 'hello test');
     });
   });

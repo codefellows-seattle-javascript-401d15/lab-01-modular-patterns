@@ -9,10 +9,9 @@ for submission in ./lab-*;do
   cd "$submission"
   npm i
   mocha
-  if [[ "$?" -eq 1 ]];then 
+  if [[ "$?" -eq 1 ]];then
     exit_code=1
   fi
 done
 
 exit $exit_code
-

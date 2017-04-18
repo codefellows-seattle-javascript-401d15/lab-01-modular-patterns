@@ -12,7 +12,7 @@ describe('greet.js', function() {
     it('should return a string', function() {
       assert.equal(typeof greeting.greet('Abigail'), 'string');
     });
-    it('should return a string', function() {
+    it('entered name matches', function() {
       assert.equal(greeting.greet(process.argv[2]), `hello ${process.argv[2]}`);
     });
   });

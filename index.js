@@ -1,3 +1,3 @@
 'use strict';
-console.log('hello world from inside nodejs');
-let x = 25;
+const greet = require ('./lib/greet.js');
+console.log(greet.greeting(process.argv[2]));

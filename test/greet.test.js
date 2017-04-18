@@ -3,7 +3,7 @@
 const assert = require('assert');
 const greet = require('../lib/greet');
 
-const name = 'steven'
+const name = 'steven';
 
 describe('greet.js', function(){
   describe('#greet', function(){

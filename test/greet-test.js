@@ -11,5 +11,8 @@ describe('greet.js', function() {
     it('should return a string', function() {
       assert.equal(typeof greet.sayHello('Jimmy'), 'string');
     });
+    it('should process user input from the command line', function() {
+      assert.equal(greet.sayHello(process.argv[2]), `Hello, ${process.argv[2]}!`);
+    });
   })
 })

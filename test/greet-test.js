@@ -14,5 +14,5 @@ describe('greet.js', function() {
     it('should process user input from the command line', function() {
       assert.equal(greet.sayHello(process.argv[2]), `Hello, ${process.argv[2]}!`);
     });
-  })
-})
+  });
+});

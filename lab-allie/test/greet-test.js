@@ -11,5 +11,8 @@ describe('greet.js', function() {
     it('should be a string', function() {
       assert.equal(typeof greeting.greet(), 'string');
     });
+    it('should return a string with Hello plus the name entered into the teminal', function() {
+      assert.equal(greeting.greet(process.argv[2]), `Hello, ${process.argv[2]}!`);
+    });
   });
 });

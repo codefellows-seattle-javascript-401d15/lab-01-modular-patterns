@@ -6,7 +6,7 @@ const greet = require('../lib/greet');
 describe('greet.js', function(){
   describe('#greet', function(){
     it('is a string', function(){
-      assert.equals(typeof greet.greet('steven'), 'string');
+      assert.equal(typeof greet.greet('steven'), 'string');
     });
   });
 });

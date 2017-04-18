@@ -2,4 +2,4 @@
 
 const hello = require('./lib/hello.js');
 
-console.log('name test 1: ', hello.greetObject('Michael'));
+console.log('name test: ', hello.greetObject('Michael'));

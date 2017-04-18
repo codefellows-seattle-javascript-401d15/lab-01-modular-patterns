@@ -8,9 +8,11 @@ let name = 'Michael';
 
 describe('hello.js', function() {
   describe('#greetObject', function() {
-    it('should return a string with greeting and name'),
-    function() {
+    it('should return a string with greeting and name', function() {
       assert.equal(hi.greetObject(name), 'Hello Michael');
-    };
+    });
+    it('should return a string', function() {
+      assert.equal(typeof hi.greetObject(name), 'string');
+    });
   });
 });

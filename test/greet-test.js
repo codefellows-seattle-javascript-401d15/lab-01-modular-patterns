@@ -4,7 +4,7 @@ const assert = require('assert');
 
 const greet = require('../lib/greet.js');
 
-// var name = 'test';
+var name = 'test';
 
 describe('greet.js', () => {
   describe('#greet', () => {
@@ -16,6 +16,9 @@ describe('greet.js', () => {
     });
     it('should not return NaN', () => {
       assert.notEqual(greet.greet(), NaN);
+    });
+    it('should return the exact string', () => {
+      assert.strictEqual(greet.greet(name), 'Hello test');
     });
   });
 });

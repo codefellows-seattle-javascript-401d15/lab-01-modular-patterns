@@ -1,0 +1,24 @@
+{
+  "name": "lab-01-modular-patterns",
+  "version": "1.0.0",
+  "description": "![CF](assets/shield-32x32.png) Lab 01: Modular Patterns and Testing\r ===",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justdisa/lab-01-modular-patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justdisa/lab-01-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/justdisa/lab-01-modular-patterns#readme",
+  "keywords": []
+}

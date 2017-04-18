@@ -4,7 +4,7 @@
   "description": "lab 01",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules\mocha"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

@@ -3,7 +3,6 @@
 const expect = require('chai').expect;
 
 let greetings = require('../lib/greet.js');
-//let hello = require('../script/index.js');
 
 describe('greetings', function(){
   it('should exist', function(){
@@ -22,10 +21,10 @@ const assert = require('assert');
 describe('greet.js', function(){
   describe('greet()', function(){
     it('should return a string', function(){
-      assert.equal(typeof greetings.greet(), 'string')
+      assert.equal(typeof greetings.greet(), 'string');
     });
     it('should return hello maria when passed maria', function(){
-      assert.equal(greetings.greet('maria'), 'hello maria')
+      assert.equal(greetings.greet('maria'), 'hello maria');
     });
   });
 });

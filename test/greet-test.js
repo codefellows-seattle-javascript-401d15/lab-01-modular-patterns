@@ -7,7 +7,7 @@ const greet = require('../lib/greet.js');
 // var name = 'test';
 
 describe('greet.js', () => {
-  describe('#printGreeting', () => {
+  describe('#greet', () => {
     it('should return a string', () => {
       assert.equal(typeof greet.greet(), 'string');
     });

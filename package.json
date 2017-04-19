@@ -1,0 +1,26 @@
+{
+  "name": "lab-glen",
+  "version": "1.0.0",
+  "description": "![CF](assets/shield-32x32.png) Lab 01: Modular Patterns and Testing ===",
+  "main": "greet.js",
+  "directories": "test",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glenrage/lab-01-modular-patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glenrage/lab-01-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/glenrage/lab-01-modular-patterns#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

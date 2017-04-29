@@ -1,0 +1,22 @@
+{
+  "name": "lab-davidw",
+  "version": "1.0.0",
+  "description": "A demo of using node tests in a TDD fashion",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "node",
+    "TDD"
+  ],
+  "author": "DavidGWheeler",
+  "license": "MIT"
+}

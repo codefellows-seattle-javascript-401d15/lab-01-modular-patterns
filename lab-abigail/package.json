@@ -1,0 +1,17 @@
+{
+  "name": "lab-abigail",
+  "version": "1.0.0",
+  "description": "lab 01",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

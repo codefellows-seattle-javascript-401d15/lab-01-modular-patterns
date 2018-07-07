@@ -1,0 +1,27 @@
+{
+  "name": "lab-01-modular-patterns",
+  "version": "1.0.0",
+  "description": "greet",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristopherSClosser/lab-01-modular-patterns.git"
+  },
+  "keywords": [
+    "greet",
+    "test",
+    "mocha"
+  ],
+  "author": "chris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristopherSClosser/lab-01-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/ChristopherSClosser/lab-01-modular-patterns#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
